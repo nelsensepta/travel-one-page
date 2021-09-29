@@ -6,6 +6,7 @@ export default function CardPost({
   width,
   height,
   slug,
+  data,
   content,
   date,
   alt,
@@ -21,7 +22,7 @@ export default function CardPost({
         className="hover:scale-105 transform transition-all duration-400 cursor-pointer w-full h-56 object-cover"
         quality={100}
         alt={alt}
-        blurDataURL={url}
+        blurDataURL={data}
         placeholder="blur"
       />
       <div className="flex flex-col items-start justify-start space-y-4 p-5 leading-relaxed">
