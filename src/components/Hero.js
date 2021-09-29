@@ -11,7 +11,7 @@ export default function Hero() {
               height={200}
               className="object-cover rounded-tl-large "
               width={200}
-              layout="responsive"
+              layout="fixed"
               alt="city1"
               quality={100}
               blurDataURL="/img/building/city1.jpg"
@@ -23,7 +23,7 @@ export default function Hero() {
               src="/img/building/city6.jpg"
               height={90}
               alt="city6"
-              layout="responsive"
+              layout="fixed"
               className="object-cover rounded-3xl"
               quality={10}
               width={90}
@@ -35,7 +35,7 @@ export default function Hero() {
             <Image
               src="/img/building/city3.jpg"
               height={120}
-              layout="responsive"
+              layout="fixed"
               className="object-cover rounded-tr-large"
               width={120}
               alt="city3"
@@ -49,7 +49,7 @@ export default function Hero() {
             <Image
               src="/img/building/city7.jpg"
               height={100}
-              layout="responsive"
+              layout="fixed"
               className="object-cover rounded-bl-medium"
               quality={100}
               alt="city7"
@@ -62,7 +62,7 @@ export default function Hero() {
             <Image
               src="/img/building/city2.jpg"
               height={200}
-              layout="responsive"
+              layout="fixed"
               className="object-cover rounded-tr-large"
               quality={100}
               width={200}
@@ -78,7 +78,7 @@ export default function Hero() {
               className="object-cover rounded-br-large"
               quality={100}
               width={200}
-              layout="responsive"
+              layout="fixed"
               alt="city4"
               blurDataURL="/img/building/city4.jpg"
               placeholder="blur"
@@ -90,7 +90,7 @@ export default function Hero() {
               height={120}
               className="object-cover rounded-bl-large"
               quality={100}
-              layout="responsive"
+              layout="fixed"
               alt="city10"
               width={120}
               blurDataURL="/img/building/city10.jpg"
@@ -101,7 +101,7 @@ export default function Hero() {
             <Image
               src="/img/building/city8.jpg"
               height={120}
-              layout="responsive"
+              layout="fixed"
               alt="city8"
               className="object-cover rounded-br-medium"
               quality={100}
@@ -117,11 +117,7 @@ export default function Hero() {
             <p className="text-md">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form,by injected
-              humour,or randomised words which don't look even slightly
-              believable. If you are going to use a passage of Lorem Ipsum,you
-              need to be sure there isn't anything embarrassing hidden in the
-              middle of text. All the Lorem Ipsum generators on the Internet
-              tend to repeat predefined chunks as necessary.
+              humour.
             </p>
             <div className="space-x-4">
               <button className="btn text-white bg-black">Join us</button>

@@ -17,7 +17,7 @@ export default function CardPost({
         src={url}
         width={width}
         height={height}
-        layout="fixed"
+        layout="responsive"
         className="hover:scale-105 transform transition-all duration-400 cursor-pointer w-full h-56 object-cover"
         quality={100}
         alt={alt}

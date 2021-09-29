@@ -37,6 +37,7 @@ export default function CardAbout({ shadow }) {
           alt="city9"
           className="object-cover"
           width={650}
+          layout="responsive"
           quality={100}
           blurDataURL="/img/building/city9.jpg"
           placeholder="blur"
