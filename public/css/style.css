@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .btn-list {
   @apply hover:bg-secondary rounded-md py-2 px-4;
 }
