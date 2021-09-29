@@ -3,4 +3,7 @@ module.exports = {
   compilerOptions: {
     baseUrl: "./src",
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
