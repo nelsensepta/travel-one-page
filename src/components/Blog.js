@@ -20,7 +20,6 @@ export default function Blog() {
             width="700"
             height="450"
             slug="#"
-            data="image?url=%2Fimg%2Fbuilding%2Fcity9.jpg&w=700&q=1"
             alt="city4"
             content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac felis
           eu erat sollicitudin sodales non mollis mi. Pellentesque maximus
@@ -33,7 +32,6 @@ export default function Blog() {
             width="700"
             height="450"
             alt="city9"
-            data="image?url=%2Fimg%2Fbuilding%2Fcity9.jpg&w=700&q=1"
             slug="#"
             content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac felis
           eu erat sollicitudin sodales non mollis mi. Pellentesque maximus
@@ -45,7 +43,6 @@ export default function Blog() {
             url="/img/building/city5.jpg"
             width="700"
             height="450"
-            data="image?url=%2Fimg%2Fbuilding%2Fcity5.jpg&w=700&q=1"
             alt="city5"
             slug="#"
             content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac felis
