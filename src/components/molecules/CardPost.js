@@ -8,6 +8,7 @@ export default function CardPost({
   slug,
   content,
   date,
+  alt,
   title,
 }) {
   return (
@@ -19,6 +20,7 @@ export default function CardPost({
         layout="responsive"
         className="hover:scale-105 transform transition-all duration-400 cursor-pointer w-full h-56 object-cover"
         quality={100}
+        alt={alt}
         blurDataURL={url}
         placeholder="blur"
       />

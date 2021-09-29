@@ -20,7 +20,8 @@ export default function Blog() {
             width="700"
             height="450"
             slug="#"
-            content=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac felis
+            alt="city4"
+            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac felis
           eu erat sollicitudin sodales non mollis mi. Pellentesque maximus
           semper odio, ac pellentesque odio euismod eu. Vivamus eu rhoncus arcu."
             date="24,Jun 2021"
@@ -30,8 +31,9 @@ export default function Blog() {
             url="/img/building/city9.jpg"
             width="700"
             height="450"
+            alt="city9"
             slug="#"
-            content=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac felis
+            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac felis
           eu erat sollicitudin sodales non mollis mi. Pellentesque maximus
           semper odio, ac pellentesque odio euismod eu. Vivamus eu rhoncus arcu."
             date="24,Jun 2021"
@@ -41,8 +43,9 @@ export default function Blog() {
             url="/img/building/city5.jpg"
             width="700"
             height="450"
+            alt="city5"
             slug="#"
-            content=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac felis
+            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac felis
           eu erat sollicitudin sodales non mollis mi. Pellentesque maximus
           semper odio, ac pellentesque odio euismod eu. Vivamus eu rhoncus arcu."
             date="24,Jun 2021"

@@ -34,6 +34,7 @@ export default function CardAbout({ shadow }) {
         <Image
           src="/img/building/city9.jpg"
           height={600}
+          alt="city9"
           className="object-cover"
           width={650}
           quality={100}

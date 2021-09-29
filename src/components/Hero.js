@@ -11,6 +11,7 @@ export default function Hero() {
               height={200}
               className="object-cover rounded-tl-large "
               width={200}
+              alt="city1"
               quality={100}
               blurDataURL="/img/building/city1.jpg"
               placeholder="blur"
@@ -20,6 +21,7 @@ export default function Hero() {
             <Image
               src="/img/building/city6.jpg"
               height={90}
+              alt="city6"
               className="object-cover rounded-3xl"
               quality={10}
               width={90}
@@ -33,6 +35,7 @@ export default function Hero() {
               height={120}
               className="object-cover rounded-tr-large"
               width={120}
+              alt="city3"
               quality={100}
               blurDataURL="/img/building/city3.jpg"
               placeholder="blur"
@@ -45,6 +48,7 @@ export default function Hero() {
               height={100}
               className="object-cover rounded-bl-medium"
               quality={100}
+              alt="city7"
               width={100}
               blurDataURL="/img/building/city7.jpg"
               placeholder="blur"
@@ -57,6 +61,7 @@ export default function Hero() {
               className="object-cover rounded-tr-large"
               quality={100}
               width={200}
+              alt="city2"
               blurDataURL="/img/building/city2.jpg"
               placeholder="blur"
             />
@@ -68,6 +73,7 @@ export default function Hero() {
               className="object-cover rounded-br-large"
               quality={100}
               width={200}
+              alt="city4"
               blurDataURL="/img/building/city4.jpg"
               placeholder="blur"
             />
@@ -78,6 +84,7 @@ export default function Hero() {
               height={120}
               className="object-cover rounded-bl-large"
               quality={100}
+              alt="city10"
               width={120}
               blurDataURL="/img/building/city10.jpg"
               placeholder="blur"
@@ -87,6 +94,7 @@ export default function Hero() {
             <Image
               src="/img/building/city8.jpg"
               height={120}
+              alt="city8"
               className="object-cover rounded-br-medium"
               quality={100}
               width={120}
@@ -96,16 +104,16 @@ export default function Hero() {
           </div>
         </div>
         <div className="w-full lg:w-1/2">
-          <div className=" space-y-4 mb-4">
+          <div className="space-y-4 mb-4">
             <h1 className="text-5xl">Hookah Association</h1>
-            <p>
+            <p className="text-md">
               There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable. If you are going to use a passage of Lorem
-              Ipsum, you need to be sure there isn't anything embarrassing
-              hidden in the middle of text. All the Lorem Ipsum generators on
-              the Internet tend to repeat predefined chunks as necessary.
+              but the majority have suffered alteration in some form,by injected
+              humour,or randomised words which don't look even slightly
+              believable. If you are going to use a passage of Lorem Ipsum,you
+              need to be sure there isn't anything embarrassing hidden in the
+              middle of text. All the Lorem Ipsum generators on the Internet
+              tend to repeat predefined chunks as necessary.
             </p>
             <div className="space-x-4">
               <button className="btn text-white bg-black">Join us</button>
@@ -115,7 +123,7 @@ export default function Hero() {
             </div>
           </div>
           <hr />
-          <div className="">
+          <div className="text-left">
             <p className="mt-4">Have any questions ?</p>
             <p>Contact Us!</p>
             <p className="mt-3 text-3xl">+79823928398239</p>
