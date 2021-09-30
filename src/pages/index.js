@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Travel-One-Page</title>
+        <title>Travel One Page</title>
       </Head>
       <Layout>
         <Hero />
