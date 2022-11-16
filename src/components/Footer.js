@@ -27,7 +27,15 @@ export default function Footer() {
         </div>
         <hr className="opacity-40" />
         <div className="flex items-center justify-between pt-6">
-          <p className="text-sm">&copy; Ninja Assasins. All Right Reserved</p>
+          <p>
+            &copy;{" "}
+            <Link href="https://github.com/nelsensepta">
+              <a className="text-blue-400 text-sm" target="_blank">
+                Nelsen Septa
+              </a>
+            </Link>{" "}
+            All Right Reserved
+          </p>
           <Sosmed />
         </div>
       </div>

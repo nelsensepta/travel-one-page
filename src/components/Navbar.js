@@ -16,7 +16,7 @@ export default function Navbar() {
           Logo
         </div>
         <div
-          className={`md:flex items-center justify-center gap-2 flex-grow  flex-col md:flex-row ${
+          className={`md:flex items-center justify-center gap-2 flex-grow flex-col md:flex-row ${
             canvas
               ? "flex transition duration-500 ease-in-out pt-20"
               : "hidden transition duration-500 ease-in-out"
